@@ -492,6 +492,10 @@ p {
   margin-bottom: 10px;
 }
 
+.comment-field {
+  margin-bottom: 20px;
+}
+
 .frm-header {
   margin-top: 0;
   margin-bottom: 12px;
@@ -530,6 +534,7 @@ p {
 }
 
 .frm-textarea {
+  display: block;
   height: 120px;
   padding: 12px 16px;
   resize: none;
@@ -563,11 +568,10 @@ p {
 .ex-checkbox-field {
   display: flex;
   justify-content: center;
-  margin-block: 20px 30px;
+  margin-bottom: 30px;
 }
 
 .frm-checkbox-label {
-  display: flex;
   line-height: calc(24 / 14);
   color: var(--main-grey-color);
   cursor: pointer;
@@ -584,7 +588,7 @@ p {
 }
 
 .ex-checkbox {
-  display: flex;
+  display: inline-flex;
   align-self: center;
   width: 16px;
   height: 15px;
